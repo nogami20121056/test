@@ -1,0 +1,57 @@
+<?xml version=“1.0” encoding=“UTF-8” ?>
+
+
+<!DOCTYPE games [
+<!ELEMENT games (game+)>
+<!ELEMENT game (card+)>
+<!ATTLIST game name CDATA #REQUIRED>
+<!ELEMENT card (name, cost, attack, defense, type, class)>
+<!ATTLIST card id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT attack (#PCDATA)>
+<!ELEMENT defense (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+]>
+
+<games>
+    <game name="shadowverse">
+        <card id="0001">
+            <name> アウェイキングガイア </name>
+            <cost> 12 </cost>
+            <attack> 6 </attack>
+            <defense> 6 </defense>
+            <type> フォロワー </type>
+            <class> エルフ </class>
+        </card>
+
+        <card id="0002">
+            <name> アストロウィング・ララミア </name>
+            <cost> 2 </cost>
+            <attack> 2 </attack>
+            <defense> 2 </defense>
+            <type> フォロワー </type>
+            <class> ネメシス </class>
+        </card>
+
+        <card id="0003">
+            <name> アブソリュート・トレランス　</name>
+            <cost> 30 </cost>
+            <attack> 9 </attack>
+            <defense> 9 </defense>
+            <type> フォロワー </type>
+            <class> ネメシス </class>
+        </card>
+
+        <card id="0004">
+            <name> イグニスドラゴン　</name>
+            <cost> 5 </cost>
+            <attack> 5 </attack>
+            <defense> 5 </defense>
+            <type> フォロワー </type>
+            <class> ドラゴン </class>
+        </card>
+
+         
+</games>
